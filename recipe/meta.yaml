@@ -1,5 +1,5 @@
 {% set name = "pydantic-yaml" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pydantic_yaml-{{ version }}.tar.gz
-  sha256: 54bdaf4da25bca95bb9ba790b1a5c6b4b3e93f7cf218fcde46b3073b61779f81
+  sha256: cd6c70e04e08545501d3b67e04ab3cd164360b07a851efbf9fb9bc11e88cc206
 
 build:
   noarch: python
